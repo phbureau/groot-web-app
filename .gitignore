@@ -1,0 +1,11 @@
+# IntelliJ settings
+.idea/
+*.iml
+
+# Eclipse settings
+.settings/
+.classpath
+.project
+
+# Build directory
+out/
