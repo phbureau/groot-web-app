@@ -1,3 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +11,7 @@
 </head>
 <body>
 <header>
-    <div id="userHeader">
-        <script>addUserHeader();</script>
-    </div>
+    <%@ include file="userHeader.html"%>
 </header>
 
 <main>
@@ -29,9 +29,7 @@
 </main>
 
 <footer>
-    <div id="userFooter">
-        <script>addUserFooter();</script>
-    </div>
+    <%@ include file="userFooter.html"%>
 </footer>
 </body>
 </html>
